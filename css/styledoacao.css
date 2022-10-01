@@ -10,10 +10,10 @@
 
 .liferay_logo
 {
-    height: 40px;
-    padding-left: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    height: 30px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .logout
@@ -32,6 +32,35 @@
     bottom: 0;
     display: flex;
     width: 100%;
-    position: absolute;
+    position: fixed;
     left: 0%;
 }
+
+.nav_list 
+{
+    list-style: none;
+    display: flex;
+    margin: 2% 3% 2% 0;
+}
+
+.bi.bi-house-door 
+{
+    font-size: 2em;
+    color: white;
+    padding-right: 100px;
+}
+
+.bi.bi-file-text 
+{
+    font-size: 2em;
+    color: white;
+    padding-right: 100px;
+}
+
+.bi.bi-map
+{
+    font-size: 2em;
+    color: white;
+    padding-right: 100px;
+}
+
