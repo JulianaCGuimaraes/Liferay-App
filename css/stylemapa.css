@@ -123,7 +123,11 @@
 }
 
 .iframe{
-    margin-top: 5%;
-    margin-bottom: 5%;
+    display: block;
+    width: 90vw;
+    height: calc(.75 * 90vw);
+    max-width: 800px;
+    max-height: 600px;
+    margin: 1.5em auto auto auto;
 }
 
