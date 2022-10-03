@@ -1,50 +1,5 @@
-/*INDEX*/
-#logo_login_coluna{
-    text-align: center;
-    padding-top: 10%; /*10% - 150px*/
-}
-.logo_login{
-   width: 254px;
-   height: 78px;
-}
-.doacao{
-    color:white;
+*{
     font-family:Arial, Helvetica, sans-serif;
-    font-weight: regular;
-}
-
-.form_login{
-    padding: 0 50px;
-}
-
-.email {
-    width: 50px;
-}
-
-#esqueceu_senha{
-    display: block;
-    padding: 10px 0;
-    text-align: right;
-   
-}
-
-.link_esqueceu_senha{
-    color:white;
-}
-
-.link_esqueceu_senha:hover{
-    color: #cdcdcd;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-#submit {
-    display: block; 
-    margin: 0 auto;
 }
 
 /*-------------------------------------------*/
@@ -85,4 +40,106 @@
     width: 100%;
     position: absolute;
     left: 0%;
+}
+
+/*-------------------------------------------*/
+/*INDEX*/
+#logo_login_coluna{
+    text-align: center;
+    padding-top: 10%; /*10% - 150px*/
+}
+
+.logo_login{
+   width: 254px;
+   height: 78px;
+}
+.doacao{
+    color:white;
+    font-weight: regular;
+}
+
+.form_login{
+    padding: 0 50px;
+}
+
+.email {
+    width: 50px;
+}
+
+#esqueceu_senha{
+    display: block;
+    padding: 10px 0;
+    text-align: right;
+   
+}
+
+.link_esqueceu_senha{
+    color:white;
+}
+
+.link_esqueceu_senha:hover{
+    color: #cdcdcd;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#submit {
+    display: block; 
+    margin: 0 auto;
+}
+
+/*-------------------------------------------*/
+/*INDEX-PERFIL*/
+
+.pagina_perfil{
+    color:#0B63CE;
+}
+
+.nome_pagina_perfil{
+    font-weight: bold;
+    padding: 20px 15px 5px;
+
+}
+
+.nome_usuario{
+    padding: 20px 15px 0px;
+    font-weight: bold;
+}
+
+.evp{
+    padding: 20px 15px 0px;
+    font-weight: medium;
+}
+
+#caixa_grafico_atividade{
+    padding: 10px 15px 0px;
+}
+
+#chart {
+    max-width: 650px;
+    margin: 35px auto;
+}
+
+
+
+#grafico_doacoes {
+    height: 30px;
+    width: 80%;
+    background-color: #B6D0F0;
+    display: block; 
+    margin: 0 auto;
+
+}
+
+#grafico_atividades {
+    height: 30px;
+    width: 90%;
+    background-color: #B6D0F0;
+    display: block; 
+    margin: 0 auto;
+
 }
