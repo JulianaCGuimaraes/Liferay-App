@@ -48,7 +48,7 @@
 }
 
 /*-------------------------------------------*/
-/*FOOTER*/
+/*HEADER*/
 .top_menu
 {
     background-color: #0B63CE;
@@ -77,12 +77,57 @@
     position: absolute;
 }
 
+/*-------------------------------------------*/
+/*FOOTER*/
+
 .bottom_menu
 {
     background-color: #0B63CE;
     bottom: 0;
     display: flex;
     width: 100%;
-    position: absolute;
-    left: 0%;
+    position: fixed;
+    justify-content: center;
 }
+
+.nav_list 
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.bi.bi-house-door 
+{
+    font-size: 2em;
+    color: white;      
+}
+
+.bi.bi-file-text 
+{
+    font-size: 2em;
+    color: white;
+}
+
+.bi.bi-map
+{
+    font-size: 2em;
+    color: white;
+}
+
+/*-------------------------------------------*/
+/*MAPA*/
+.pagina_mapa{
+    background-color:#072252
+}
+
+.iframe{
+    display: block;
+    width: 90vw;
+    height: calc(.75 * 90vw);
+    max-width: 800px;
+    max-height: 600px;
+    margin: 1.5em auto auto auto;
+}
+
