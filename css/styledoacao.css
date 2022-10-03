@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+body {
+    margin: 0;
+}
+
+>>>>>>> develop
 .top_menu
 {
     background-color: #0B63CE;
@@ -25,6 +32,28 @@
     left: 90%;
     position: absolute;
 }
+<<<<<<< HEAD
+=======
+.formulario {
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.titulo_form {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #0B63CE;
+    text-decoration: solid;
+}
+
+.form_body 
+{
+    justify-content: center;
+    left: 50%;
+}
+>>>>>>> develop
 
 .bottom_menu
 {
@@ -33,34 +62,53 @@
     display: flex;
     width: 100%;
     position: fixed;
+<<<<<<< HEAD
     left: 0%;
+=======
+    justify-content: center;
+>>>>>>> develop
 }
 
 .nav_list 
 {
     list-style: none;
     display: flex;
+<<<<<<< HEAD
     margin: 2% 3% 2% 0;
+=======
+    justify-content: space-around;
+    width: 100%;
+>>>>>>> develop
 }
 
 .bi.bi-house-door 
 {
     font-size: 2em;
+<<<<<<< HEAD
     color: white;
     padding-right: 100px;
+=======
+    color: white;      
+>>>>>>> develop
 }
 
 .bi.bi-file-text 
 {
     font-size: 2em;
     color: white;
+<<<<<<< HEAD
     padding-right: 100px;
+=======
+>>>>>>> develop
 }
 
 .bi.bi-map
 {
     font-size: 2em;
     color: white;
+<<<<<<< HEAD
     padding-right: 100px;
+=======
+>>>>>>> develop
 }
 

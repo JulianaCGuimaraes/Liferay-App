@@ -11,34 +11,33 @@
     <title>Liferay Doações</title>
 
 </head>
-<body class = "pagina_login">
-    <div class="container">
-        <div class="row">
+<body class = "pagina_login" style="background-color:#0B63CE">
+        <div class="container">
+            <div class="row">
                 <div class="col img-fluid mx-auto" id="logo_login_coluna">
                     <img class="logo_login" src="/img/liferay-logo.png">
                     <h2 class="doacao">Doações</h2>
                 </div>
-        </div>
-        <div class ="row">
-            <form class="form_login">
-                <div class="col-md-4  offset-md-4">
-                    <label for="Email" class="form-label-email"></label>
-                    <input type="email" class="form-control" placeholder="Email" id="Email" >
-                </div>
-                <div class="col-md-4 offset-md-4">
-                    <label for="Password" class="form-label-password"></label>
-                    <input type="password" class="form-control" placeholder="Password" id="Password">
-                </div>
-                <div class="offset-md-6" >
-                    <a class="link_esqueceu_senha" href="#">Esqueceu sua senha?</a>
-                </div>
-                <div>
-            <button id= "submit" type="submit" class="btn btn-light col-md-2 offset-md-5 "><strong>Submit</strong></button>
             </div>
-        </form>
-    </div>
-
-    </div>
+            <div class ="row">
+                <form class="form_login">
+                    <div class="col-8  offset-2 col-sm-8  offset-sm-2 col-md-6  offset-md-3 col-lg-4  offset-lg-4 col-xl-4  offset-xl-4">
+                        <label for="Email" class="form-label-email"></label>
+                        <input type="email" class="form-control" placeholder="Email" id="email" >
+                    </div>
+                    <div class="col-8  offset-2 col-sm-8  offset-sm-2 col-md-6  offset-md-3 col-lg-4  offset-lg-4 col-xl-4  offset-xl-4">
+                        <label for="Password" class="form-label-password"></label>
+                        <input type="password" class="form-control" placeholder="Password" id="Password">
+                    </div>
+                    <div id= "esqueceu_senha" class="col-8  offset-2 col-sm-8  offset-sm-2 col-md-6  offset-md-3 col-lg-4  offset-lg-4 col-xl-4  offset-xl-4">
+                        <a class="link_esqueceu_senha" href="#">Esqueceu sua senha?</a>
+                    </div>
+                    <div>
+                        <button id= "submit" type="submit" class="btn btn-light col-md-2 offset-md-5 "><strong>Submit</strong></button>
+                    </div>
+                </form>
+            </div>
+        </div>
 </body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    
 </html>
