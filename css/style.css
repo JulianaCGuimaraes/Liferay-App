@@ -97,13 +97,24 @@
 
 .pagina_perfil{
     color:#0B63CE;
+    background-color: white;
 }
+
 
 .nome_pagina_perfil{
     font-weight: bold;
-    padding: 20px 15px 5px 15px;
+    padding: 20px 5px 5px 15px;
     text-align: left;
+    display:inline-block;
 
+}
+
+#historico {
+        font-weight: bold;
+        padding: 20px 15px 5px 15px;
+        text-align: right;
+        margin: 0;
+    
 }
 
 .nome_usuario{
