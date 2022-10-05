@@ -2,6 +2,34 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 
+.top_menu
+{
+    background-color: #0B63CE;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+
+.liferay_logo
+{
+    height: 30px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logout
+{
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 15px;
+    text-decoration: none;
+    left: 90%;
+    position: absolute;
+}
+
 .pagina_perfil{
     color:#0B63CE;
 }
@@ -49,5 +77,45 @@
     background-color: #B6D0F0;
     display: block; 
     margin: 0 auto;
-
 }
+ /* FOOTER */
+
+ .bottom_menu
+{
+    background-color: #0B63CE;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    justify-content: center;
+}
+
+.nav_list 
+{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.bi.bi-house-door-fill
+{
+    font-size: 2em;
+    color: white;      
+}
+
+.bi.bi-file-text
+{
+    font-size: 2em;
+    color: white;
+}
+
+.bi.bi-map
+{
+    font-size: 2em;
+    color: white;
+}
+
+
+

@@ -116,6 +116,7 @@ body {
 
 .nav_list 
 {
+    padding: 0;
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -128,7 +129,7 @@ body {
     color: white;      
 }
 
-.bi.bi-file-text 
+.bi.bi-file-text-fill 
 {
     font-size: 2em;
     color: white;

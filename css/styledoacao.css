@@ -1,10 +1,7 @@
-<<<<<<< HEAD
-=======
 body {
-    margin: 0;
+    margin: auto;
 }
 
->>>>>>> develop
 .top_menu
 {
     background-color: #0B63CE;
@@ -32,28 +29,80 @@ body {
     left: 90%;
     position: absolute;
 }
-<<<<<<< HEAD
-=======
 .formulario {
-    margin-top: 20%;
+    margin-top: 10%;
+    margin-left: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center; 
+}
+
+.form-label-password{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.sub-titulo-chk{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #0B63CE;
+    font-weight: bolder;
+}
+
+.chk-boxes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10px;
+    margin: 0px;
+    padding-bottom: 15px;
 }
 
 .titulo_form {
+    padding-top: 25px;
+    padding-right: 35px;
+    padding-bottom: 13px;
+    margin: auto;
+    font-size: 19px;
     font-family:Arial, Helvetica, sans-serif;
     text-align: center;
     color: #0B63CE;
     text-decoration: solid;
 }
 
-.form_body 
-{
-    justify-content: center;
-    left: 50%;
+#btn_enviar_ativ{
+    margin-left: 80px;
+    margin-top: 20px;
+    padding: 15px;
+    width: 40%;
+    background-color: #0B63CE;
+    border:0px;
+    color: white;
+    border-radius: 10px;
 }
->>>>>>> develop
+
+.form-control{
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+    width: 80%;
+    margin: 7px;
+}
+
+.form-control-pais{
+    padding: 7px;
+    width: 76%;
+    margin: 7px;   
+}
+
+.container-pais{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: stretch;
+    margin-left: 10px;
+}
+
 
 .bottom_menu
 {
@@ -62,53 +111,57 @@ body {
     display: flex;
     width: 100%;
     position: fixed;
-<<<<<<< HEAD
-    left: 0%;
-=======
     justify-content: center;
->>>>>>> develop
 }
 
 .nav_list 
 {
+    padding: 0;
     list-style: none;
     display: flex;
-<<<<<<< HEAD
-    margin: 2% 3% 2% 0;
-=======
     justify-content: space-around;
     width: 100%;
->>>>>>> develop
 }
 
 .bi.bi-house-door 
 {
     font-size: 2em;
-<<<<<<< HEAD
-    color: white;
-    padding-right: 100px;
-=======
     color: white;      
->>>>>>> develop
 }
 
-.bi.bi-file-text 
+.bi.bi-file-text-fill
 {
     font-size: 2em;
     color: white;
-<<<<<<< HEAD
-    padding-right: 100px;
-=======
->>>>>>> develop
 }
 
 .bi.bi-map
 {
     font-size: 2em;
     color: white;
-<<<<<<< HEAD
-    padding-right: 100px;
-=======
->>>>>>> develop
 }
+
+@media only screen and (min-width: 600px) {
+    .titulo_form {
+      padding-top: 65px;
+      padding-right: 620px;
+    }
+    .formulario {
+        padding-top: 0px;
+        margin: auto;
+        padding-left: 580px;
+    }
+    #btn_enviar_ativ{
+        margin-left: 270px;
+        width: 10%;
+    }
+    .form-control-pais{
+        width: 49%;
+    }
+    .form-control{
+        padding: 7px;
+        width: 50%;
+        margin: 7px;
+    }
+  }
 
