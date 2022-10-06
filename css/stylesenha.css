@@ -47,95 +47,6 @@
     margin: 0 auto;
 }
 
-/*-------------------------------------------*/
-/*HEADER*/
-.top_menu
-{
-    background-color: #0B63CE;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-}
-
-.liferay_logo
-{
-    height: 40px;
-    padding-left: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.logout
-{
-    font-family:Arial, Helvetica, sans-serif;
-    color: white;
-    padding-top: 5px;
-    text-decoration: none;
-    left: 90%;
-    position: absolute;
-}
-
-/*-------------------------------------------*/
-/*FOOTER*/
-
-.bottom_menu
-{
-    background-color: #0B63CE;
-    bottom: 0;
-    display: flex;
-    width: 100%;
-    position: fixed;
-    justify-content: center;
-}
-
-.nav_list 
-{
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-}
-
-.bi.bi-house-door 
-{
-    font-size: 2em;
-    color: white;      
-}
-
-.bi.bi-file-text 
-{
-    font-size: 2em;
-    color: white;
-}
-
-.bi.bi-map
-{
-    font-size: 2em;
-    color: white;
-}
-
-/*-------------------------------------------*/
-/*MAPA*/
-.pagina_mapa{
-    background-color:white
-}
-
-.iframe{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
-}
-
-.iframe iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-}
 
 /*-------------------------------------------*/
 /*ALTERAR SENHA*/
@@ -160,4 +71,25 @@
 #altsenha {
     display: block; 
     margin: 0 auto;
+}
+
+#rec_codigo{
+    font-family:Arial, Helvetica, sans-serif;
+    display: block;
+    text-align: justify;
+    color: white  
+}
+
+#rec_recupsenha{
+    font-family:Arial, Helvetica, sans-serif;
+    display: block;
+    text-align: center;
+    color: white  
+}
+
+#rec_compsenha{
+    font-family:Arial, Helvetica, sans-serif;
+    display: block;
+    text-align: left;
+    color: white  
 }

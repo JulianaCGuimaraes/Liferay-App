@@ -21,23 +21,27 @@
             </div>
             <div class ="row">
                 <div class="col-8  offset-2 col-sm-8  offset-sm-2 col-md-6  offset-md-3 col-lg-4  offset-lg-4 col-xl-4  offset-xl-4">
-                    <label for="Password" class="form-label-password"></label>
-                    <input type="password" class="form-control" placeholder="Código de verificação" id="Password">
+                    <br><p id="rec_compsenha">Digite o código de verificação:
+                        <label for="Email" class="form-label-email"></label>
+                    <input type="email" class="form-control" placeholder="Código de verificação" id="Password">
                 </div>
                 <form class="form_login">
-                    <br>
-                    <p id="rec_email">Digite o endereço de e-mail verificado da sua conta de usuário e nós lhe enviaremos um código de validação:</p>
                     <div class="col-8  offset-2 col-sm-8  offset-sm-2 col-md-6  offset-md-3 col-lg-4  offset-lg-4 col-xl-4  offset-xl-4">
+                        <p id="rec_recupsenha">A senha deve ser composta por:</p>
+                        <p id="rec_compsenha">&bull; No mínimo 8 caracteres;<br>
+                        &bull; Conter letras e números;<br>
+                        &bull; Conter uma letra maiúscula;<br>
+                        &bull; Conter um caracter especial.<br>
                         <label for="Password" class="form-label-password"></label>
                         <input type="password" class="form-control" placeholder="Nova senha" id="Password">
                     </div>
                     <div class="col-8  offset-2 col-sm-8  offset-sm-2 col-md-6  offset-md-3 col-lg-4  offset-lg-4 col-xl-4  offset-xl-4">
                         <label for="Password" class="form-label-password"></label>
-                        <input type="password" class="form-control" placeholder="Nova senha" id="New Password">
+                        <input type="password" class="form-control" placeholder="Confirme a nova senha" id="New Password">
                     </div>
                     <br>
                     <div>
-                        <a href="/index.html"><button id= "altsenha" type="altsenha" class="btn btn-light col-md-3 offset-md-5 "><strong>Alterar senha</strong></button></a>
+                        <a href="/index.html"><button id= "altsenha" type="button" class="btn btn-light col-md-3 offset-md-6 "><strong>Alterar senha</strong></button></a>
                     </div>
                 </form>
             </div>
