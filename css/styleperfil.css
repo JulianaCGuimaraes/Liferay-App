@@ -12,7 +12,6 @@
 .logout
 {
     color: white;
-    text-decoration: none;
     vertical-align: middle;
     padding: 0 15px 0 0;
 }
@@ -84,7 +83,11 @@
     padding-top: 9px;
 }
 
-.bi.bi-house-door 
+ul li a:active {
+    background-color: #B6D0F0 !important;
+}
+
+.bi.bi-house-door-fill 
 {
     font-size: 2em;
     color: white; 
