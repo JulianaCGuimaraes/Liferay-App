@@ -1,51 +1,16 @@
-/*INDEX*/
-#logo_login_coluna{
-    text-align: center;
-    padding-top: 10%; /*10% - 150px*/
-}
-.logo_login{
-   width: 254px;
-   height: 78px;
-}
-.doacao{
-    color:white;
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: regular;
+/*MAPA*/
+.pagina_mapa{
+    background-color:white
 }
 
-.form_login{
-    padding: 0 50px;
+.iframe iframe{
+    position: fixed;
+    top: 55px;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
-.email {
-    width: 50px;
-}
-
-#esqueceu_senha{
-    display: block;
-    padding: 10px 0;
-    text-align: right;
-   
-}
-
-.link_esqueceu_senha{
-    color:white;
-}
-
-.link_esqueceu_senha:hover{
-    color: #cdcdcd;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-#submit {
-    display: block; 
-    margin: 0 auto;
-}
 
 /*-------------------------------------------*/
 /*HEADER*/
@@ -103,6 +68,7 @@ ul li a:active {
 .bi.bi-info-circle{
     font-size: 2em;
     color: white;
+
 }
 
 @media only screen and (min-width: 600px) {
@@ -144,3 +110,26 @@ ul li a:active {
     margin: 1.5em auto auto auto;
 }
 
+@media only screen and (min-width: 600px) {
+    .titulo_form {
+      padding-top: 65px;
+      padding-right: 620px;
+    }
+    .formulario {
+        padding-top: 0px;
+        margin: auto;
+        padding-left: 580px;
+    }
+    #btn_enviar_ativ{
+        margin-left: 270px;
+        width: 10%;
+    }
+    .form-control-pais{
+        width: 49%;
+    }
+    .form-control{
+        padding: 7px;
+        width: 50%;
+        margin: 7px;
+    }
+  }
