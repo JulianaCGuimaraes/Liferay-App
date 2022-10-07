@@ -68,6 +68,46 @@ ul li a:active {
 .bi.bi-info-circle{
     font-size: 2em;
     color: white;
+
+}
+
+@media only screen and (min-width: 600px) {
+    .titulo_form {
+      padding-top: 65px;
+      padding-right: 620px;
+    }
+    .formulario {
+        padding-top: 0px;
+        margin: auto;
+        padding-left: 580px;
+    }
+    #btn_enviar_ativ{
+        margin-left: 270px;
+        width: 10%;
+    }
+    .form-control-pais{
+        width: 49%;
+    }
+    .form-control{
+        padding: 7px;
+        width: 50%;
+        margin: 7px;
+    }
+  }
+
+/*-------------------------------------------*/
+/*MAPA*/
+.pagina_mapa{
+    background-color:#072252
+}
+
+.iframe{
+    display: block;
+    width: 90vw;
+    height: calc(.75 * 90vw);
+    max-width: 800px;
+    max-height: 600px;
+    margin: 1.5em auto auto auto;
 }
 
 @media only screen and (min-width: 600px) {
