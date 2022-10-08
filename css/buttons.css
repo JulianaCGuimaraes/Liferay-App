@@ -16,15 +16,27 @@
     padding: 0 15px 0 0;
 }
 
-/*BODY*/
+/*FORMULARIO*/
+
+.pagina_formulario{
+    color:#0B63CE;
+    background:white;
+}
+
+.nome_pagina_formulario{
+    font-weight: bold;
+    padding: 20px 15px 5px 15px;
+    text-align: left;
+
+}
 .nome_pagina_tela_formulario{
     color:#0B63CE;
     font-weight: bold;
     padding: 15px 15px ;
 }
 
-.botoes_forms{
-    margin: 10 auto;
+#botoes_forms a {
+    text-decoration: none;
 }
 
 .btn.btn-primary {
@@ -34,22 +46,22 @@
     height: 50px;
     display: block; 
     margin: 0 auto;
-    font-size: 16px;
+    font-size: 25px;
     text-align: center;
     width: 70%;
     height: 133px;
     font-weight: bold;
-    border-radius: 2%;
+    border-radius: 15px;
+    box-shadow: 0 3px rgb(231, 231, 231);
+
 }
 
-.button_form_atividade{
-    padding: 10px 10px 80px 0 ; 
-    
-}
+.btn.btn-primary:hover {background-color: #B6D0F0}
 
-.button_form_doacoes{
-    padding: 10px 10px 100px 0; 
-    
+.btn.btn-primary:active {
+  background-color: #B6D0F0;
+  box-shadow: 0 3px rgb(203, 203, 203);
+  transform: translateY(3px);
 }
 
 /*FOOTER*/

@@ -12,7 +12,7 @@
     <title>Liferay Doações</title>
 
 </head>
-<body>
+<body class="pagina_formulario">
     <header class="header">
         <nav id="top_menu" class="navbar navbar-expand-lg" style="background-color: #0B63CE; height: 55px;">
             <div class="container-fluid">
@@ -26,19 +26,25 @@
           </nav>
         </header>
 
-    <div class="container">
-        <div class="row">
-                <div class="col-md-6 mx-auto">
-                    <h2 class="nome_pagina_tela_formulario">FORMULÁRIO</h2>
-                </div>
-                <div class="botoes_forms">
-                    <div class="button_form_atividade">
-                        <button  type="button" class="btn btn-primary col-md-2 offset-md-5"><h2>FORMULÁRIO DE ATIVIDADES</h2></button>
-                    </div>
-                    <div class="button_form_docoes">
-                        <button type="button" class="btn btn-primary col-md-2 offset-md-5"><h2>FORMULÁRIO DE DOAÇÕES</h2></button>
-                    </div>
-                </div>
+    <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-12 mx-auto">
+              <h2 class="nome_pagina_formulario">FORMULÁRIO</h2>
+          </div>
+      </div>
+      <div class = "row">
+        <div id="botoes_forms" class="d-grid gap-2" >
+          <div class="button_form_atividade pb-4 mb-2">
+            <a href="/index-formulario-atividades.html">
+            <button class="btn btn-primary" type="button">FORMULÁRIO DE ATIVIDADES</button>
+          </a>
+          </div>
+          <div class="button_form_docoes pt-4 mt-2">
+            <a href="/index-formulario-doacoes.html">
+            <button class="btn btn-primary" type="button">FORMULÁRIO DE DOAÇÕES</button>
+          </a>
+          </div>
+        </div>
         </div>
     </div> 
 
