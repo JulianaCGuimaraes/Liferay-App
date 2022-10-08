@@ -1,7 +1,7 @@
 /*INDEX*/
 #logo_login_coluna{
     text-align: center;
-    padding-top: 10%; /*10% - 150px*/
+    padding-top: 5%; /*10% - 150px*/
 }
 .logo_login{
    width: 254px;
@@ -54,6 +54,7 @@
     color:white;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: regular;
+    float:left;
 }
 
 #rec_email{
@@ -93,3 +94,14 @@
     text-align: left;
     color: white  
 }
+
+.bi-arrow-left-circle{
+    font-size: 1em;
+    color: white;
+}
+
+.return{
+    display: flex;
+    justify-content: space-around;
+}
+
