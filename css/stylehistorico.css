@@ -19,8 +19,9 @@ body{
     padding: 20px;
     border-radius: 0px;
     margin: 20px;
-    /* background-color: #B6D0F0;
-    border: 1px black solid;  */
+    /* background-color: #B6D0F0; */
+    /* border: 1px black dashed;
+    border-radius: 25px; */
 }
 
 .titulo_form {
