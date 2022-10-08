@@ -1,11 +1,49 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/*HEADER*/
+.liferay_logo{
+    vertical-align: middle;
+    padding: 0 15px 0 0;
+    margin: 0 auto;
+}
+
+.logout
+{
+    color: white;
+    vertical-align: middle;
+    padding: 0 15px 0 0;
+}
+
+/*FORMULARIO*/
+
+.pagina_formulario{
+    color:#0B63CE;
+    background:white;
+}
+
+.nome_pagina_formulario{
+    font-weight: bold;
+    padding: 20px 15px 5px 15px;
+    text-align: left;
+
+}
 .nome_pagina_tela_formulario{
     color:#0B63CE;
     font-weight: bold;
     padding: 15px 15px ;
 }
 
-.botoes_forms{
-    margin: 10 auto;
+#botoes_forms a {
+    text-decoration: none;
+}
+
+
+.d-grid.gap-2 {
+    
+    align-items: center !important;
+    padding: 50px 12px;
 }
 
 .btn.btn-primary {
@@ -15,20 +53,85 @@
     height: 50px;
     display: block; 
     margin: 0 auto;
-    font-size: 16px;
+    font-size: 25px;
     text-align: center;
     width: 70%;
     height: 133px;
     font-weight: bold;
-    border-radius: 2%;
+    border-radius: 15px;
+    box-shadow: 0 3px rgb(231, 231, 231);
+
 }
 
-.button_form_atividade{
-    padding: 10px 10px 80px 0 ; 
-    
+.btn.btn-primary:hover {background-color: #B6D0F0}
+
+.btn.btn-primary:active {
+  background-color: #B6D0F0;
+  box-shadow: 0 3px rgb(203, 203, 203);
+  transform: translateY(3px);
 }
 
-.button_form_doacoes{
-    padding: 10px 10px 100px 0; 
-    
+/*FOOTER*/
+.navbar {
+    padding:0 !important;
 }
+
+#bottom_menu a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    height: 64px;
+    padding-top: 9px;
+}
+
+ul li a:active {
+    background-color: #B6D0F0 !important;
+}
+
+.bi.bi-house-door 
+{
+    font-size: 2em;
+    color: white; 
+}
+
+.bi.bi-file-text-fill
+{
+    font-size: 2em;
+    color: white;
+}
+
+.bi.bi-map
+{
+    font-size: 2em;
+    color: white;
+}
+
+.bi.bi-info-circle{
+    font-size: 2em;
+    color: white;
+}
+
+@media only screen and (min-width: 600px) {
+    .titulo_form {
+      padding-top: 65px;
+      padding-right: 620px;
+    }
+    .formulario {
+        padding-top: 0px;
+        margin: auto;
+        padding-left: 580px;
+    }
+    #btn_enviar_ativ{
+        margin-left: 270px;
+        width: 10%;
+    }
+    .form-control-pais{
+        width: 49%;
+    }
+    .form-control{
+        padding: 7px;
+        width: 50%;
+        margin: 7px;
+    }
+  }

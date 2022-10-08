@@ -5,48 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/buttons.css">
 
     <title>Liferay Doações</title>
 
 </head>
-<body>
-    <header>
-        <div class="top_menu">
-            <img src="img/liferay-logo.png" alt="liferay logo" class="liferay_logo">
-            <a href="index.html" class="logout">Sair</a>
+<body class="pagina_formulario">
+    <header class="header">
+        <nav id="top_menu" class="navbar navbar-expand-lg" style="background-color: #0B63CE; height: 55px;">
+            <div class="container-fluid">
+                <a class="navbar-brand">
+                    <img src="/img/liferay-logo.png" alt="liferay logo" class="liferay_logo" width="100%" height="30">
+                  </a>
+                <form class="d-flex" role="search">
+                    <a href="index.html" class="logout">Sair</a>
+                </form>
+              </div>
+          </nav>
+        </header>
+
+    <div class="container-fluid">
+      <div class="row">
+          <div class="col-md-12 mx-auto">
+              <h2 class="nome_pagina_formulario">FORMULÁRIO</h2>
+          </div>
+      </div>
+      <div class = "row">
+        <div id="botoes_forms" class="d-grid gap-2" >
+          <div class="button_form_atividade  pb-4 mb-2">
+            <a href="/index-formulario-atividades.html">
+            <button class="btn btn-primary" type="button">FORMULÁRIO DE ATIVIDADES</button>
+          </a>
+          </div>
+          <div class="button_form_docoes  pt-4 mt-4">
+            <a href="/index-formulario-doacoes.html">
+            <button class="btn btn-primary" type="button">FORMULÁRIO DE DOAÇÕES</button>
+          </a>
+          </div>
         </div>
-    </header>
-    <h2>Text field</h2>
-    <link rel="stylesheet" href="css/styledoacao.css">
-    <link rel="stylesheet" href="css/buttons.css">
-    <div class="container">
-        <div class="row">
-                <div class="col-md-6 mx-auto">
-                    <h2 class="nome_pagina_tela_formulario">FORMULÁRIO</h2>
-                </div>
-                <div class="botoes_forms">
-                    <div class="button_form_atividade">
-                        <button  type="button" class="btn btn-primary col-md-2 offset-md-5"><h2>FORMULÁRIO DE ATIVIDADES</h2></button>
-                    </div>
-                    <div class="button_form_docoes">
-                        <button type="button" class="btn btn-primary col-md-2 offset-md-5"><h2>FORMULÁRIO DE DOAÇÕES</h2></button>
-                    </div>
-                </div>
         </div>
     </div> 
 
-    <footer>
-        <div class="bottom_menu">
-            <ul class="nav_list">
-                <li class="home"><a href="/"><i class="bi bi-house-door"></i></a></li>
-                <li class="forms"><a href="/"><i class="bi bi-file-text"></i></a></li>
-                <li class="map"><a href="/"><i class="bi bi-map"></i></a></li>
-            </ul>
-        </div>
-    </footer>
-    -->
+    <nav id= "bottom_menu" class="navbar fixed-bottom navbar-dark bg-info navbar-expand" style="background-color: #0B63CE !important;">
+        <ul class="navbar-nav nav-justified w-100">
+          <li class="nav-item">
+            <a class= "nav-link active" href="/index-perfil.html"><i class="bi bi-house-door"></i></a>
+          </li>
+          <li  class="nav-item">
+            <a class= "nav-link active" href="/index-tela-formulário.html"><i class="bi bi-file-text-fill"></i></a>
+          </li>
+          <li  class="nav-item">
+            <a class= "nav-link active" href="/index-mapa.html"><i class="bi bi-map"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class= "nav-link active" href="/"><i class="bi bi-info-circle"></i></a>
+          </li>
+        </ul>
+      </nav>
+
 </body>
 </html>
 

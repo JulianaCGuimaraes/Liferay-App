@@ -12,7 +12,6 @@
 .logout
 {
     color: white;
-    text-decoration: none;
     vertical-align: middle;
     padding: 0 15px 0 0;
 }
@@ -22,6 +21,7 @@
 
 .pagina_perfil{
     color:#0B63CE;
+    background:white;
 }
 
 .nome_pagina_perfil{
@@ -75,7 +75,7 @@
     padding:0 !important;
 }
 
-.navbar a {
+#bottom_menu a {
     display: block;
     color: #f2f2f2;
     text-align: center;
@@ -84,7 +84,11 @@
     padding-top: 9px;
 }
 
-.bi.bi-house-door 
+ul li a:active {
+    background-color: #B6D0F0 !important;
+}
+
+.bi.bi-house-door-fill 
 {
     font-size: 2em;
     color: white; 
