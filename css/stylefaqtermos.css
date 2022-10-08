@@ -19,7 +19,9 @@
 /*FORMULARIO*/
 
 .pagina_formulario{
+    text-align: center;
     color:#0B63CE;
+    font-family:Arial, Helvetica, sans-serif;
     background:white;
 }
 
@@ -35,34 +37,12 @@
     padding: 15px 15px ;
 }
 
-#botoes_forms a {
-    text-decoration: none;
+.titulo 
+{
+    text-decoration: solid;
 }
 
-.btn.btn-primary {
-    background-color: #0B63CE;
-    border: none;
-    color: white;
-    height: 50px;
-    display: block; 
-    margin: 0 auto;
-    font-size: 25px;
-    text-align: center;
-    width: 70%;
-    height: 133px;
-    font-weight: bold;
-    border-radius: 15px;
-    box-shadow: 0 3px rgb(231, 231, 231);
 
-}
-
-.btn.btn-primary:hover {background-color: #B6D0F0}
-
-.btn.btn-primary:active {
-  background-color: #B6D0F0;
-  box-shadow: 0 3px rgb(203, 203, 203);
-  transform: translateY(3px);
-}
 
 /*FOOTER*/
 .navbar {
@@ -88,7 +68,7 @@ ul li a:active {
     color: white; 
 }
 
-.bi.bi-file-text-fill
+.bi.bi-file-text
 {
     font-size: 2em;
     color: white;
@@ -100,7 +80,7 @@ ul li a:active {
     color: white;
 }
 
-.bi.bi-info-circle{
+.bi.bi-info-circle-fill{
     font-size: 2em;
     color: white;
 }
