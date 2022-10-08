@@ -35,12 +35,21 @@ body{
     text-align: left;
     color: #0B63CE;
     text-decoration: solid;
-    font-weight: 700;
+    font-weight: bolder !important;
 }
 
 @media only screen and (min-width: 600px) {
     .acordeon_principal{
         padding: 12px;
         margin-top: 40px;
+        margin-left: 350px;
+        margin-right: 350px;
     }
 }
+
+@media only screen and (min-width: 820px) {
+    .acordeon_principal{
+        padding: 0;
+        margin: 20px;
+    }
+  }

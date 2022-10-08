@@ -102,9 +102,24 @@ body {
 @media only screen and (min-width: 820px) {
     #formulario {
         padding-top: 0px;
-        margin-left: 250px;
-        margin-right: 250px;
+        margin-left: 450px;
+        margin-right: 450px;
     }
     
   }
  
+  @media only screen and (device-width: 820px) {
+    .form-control{
+        display: flex;
+        justify-content: center;
+        padding: 7px !important;
+        width: 100% !important;
+        margin: auto !important;
+    }
+
+    #formulario {
+        padding-top: 0px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+  }
