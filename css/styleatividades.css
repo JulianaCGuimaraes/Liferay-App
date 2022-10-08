@@ -1,37 +1,28 @@
-body {
-    margin: auto;
-}
 
-.top_menu
-{
-    background-color: #0B63CE;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-}
 
-.liferay_logo
-{
-    height: 30px;
-    padding-left: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+/*HEADER*/
+
+.liferay_logo{
+    vertical-align: middle;
+    padding: 0 15px 0 0;
+    margin: 0 auto;
 }
 
 .logout
 {
-    font-family:Arial, Helvetica, sans-serif;
     color: white;
-    padding-top: 15px;
-    text-decoration: none;
-    left: 90%;
-    position: absolute;
+    vertical-align: middle;
+    padding: 0 15px 0 0;
 }
+
+
+/* FORM */
+
+
 .formulario {
     margin-top: 10%;
     margin-left: 30px;
+    margin-right: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center; 
@@ -103,32 +94,33 @@ body {
     margin-left: 10px;
 }
 
-
-.bottom_menu
-{
-    background-color: #0B63CE;
-    bottom: 0;
-    display: flex;
-    width: 100%;
+/*FOOTER*/
+.navbar {
+    padding:0 !important;
     position: fixed;
-    justify-content: center;
 }
 
-.nav_list 
-{
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
+#bottom_menu a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    height: 64px;
+    padding-top: 9px;
+    
+}
+
+ul li a:active {
+    background-color: #B6D0F0 !important;
 }
 
 .bi.bi-house-door 
 {
     font-size: 2em;
-    color: white;      
+    color: white; 
 }
 
-.bi.bi-file-text 
+.bi.bi-file-text-fill 
 {
     font-size: 2em;
     color: white;
@@ -136,6 +128,11 @@ body {
 
 .bi.bi-map
 {
+    font-size: 2em;
+    color: white;
+}
+
+.bi.bi-info-circle{
     font-size: 2em;
     color: white;
 }

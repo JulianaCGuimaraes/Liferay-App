@@ -88,7 +88,7 @@ ul li a:active {
     color: white; 
 }
 
-.bi.bi-file-text-fill
+.bi.bi-file-text
 {
     font-size: 2em;
     color: white;
@@ -100,7 +100,7 @@ ul li a:active {
     color: white;
 }
 
-.bi.bi-info-circle{
+.bi.bi-info-circle-fill{
     font-size: 2em;
     color: white;
 }

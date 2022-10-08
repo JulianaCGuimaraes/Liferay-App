@@ -1,3 +1,54 @@
+
+
+/*HEADER*/
+
+.liferay_logo{
+    vertical-align: middle;
+    padding: 0 15px 0 0;
+    margin: 0 auto;
+}
+
+.logout
+{
+    color: white;
+    vertical-align: middle;
+    padding: 0 15px 0 0;
+}
+
+
+/* FORM */
+
+
+.formulario {
+    margin-top: 10%;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.form-label-password{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.sub-titulo-chk{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #0B63CE;
+    font-weight: bolder;
+}
+
+.chk-boxes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10px;
+    margin: 0px;
+    padding-bottom: 15px;
+}
+
 .titulo_form {
     padding-top: 25px;
     padding-right: 35px;
@@ -10,69 +61,103 @@
     text-decoration: solid;
 }
 
-.top_menu
-{
+#btn_enviar_ativ{
+    margin-left: 80px;
+    margin-top: 20px;
+    padding: 15px;
+    width: 40%;
     background-color: #0B63CE;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-}
-
-.liferay_logo
-{
-    height: 30px;
-    padding-left: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.logout
-{
-    font-family:Arial, Helvetica, sans-serif;
+    border:0px;
     color: white;
-    padding-top: 15px;
-    text-decoration: none;
-    left: 90%;
-    position: absolute;
+    border-radius: 10px;
 }
 
-.bottom_menu
-{
-    background-color: #0B63CE;
-    bottom: 0;
+.form-control{
     display: flex;
-    width: 100%;
+    justify-content: center;
+    padding: 7px;
+    width: 80%;
+    margin: 7px;
+}
+
+.form-control-pais{
+    padding: 7px;
+    width: 76%;
+    margin: 7px;   
+}
+
+.container-pais{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: stretch;
+    margin-left: 10px;
+}
+
+/*FOOTER*/
+.navbar {
+    padding:0 !important;
     position: fixed;
-    left: 0%;
 }
 
-.nav_list 
-{
-    list-style: none;
-    display: flex;
-    margin: 2% 3% 2% 0;
+#bottom_menu a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    height: 64px;
+    padding-top: 9px;
+    
+}
+
+ul li a:active {
+    background-color: #B6D0F0 !important;
 }
 
 .bi.bi-house-door 
 {
     font-size: 2em;
-    color: white;
-    padding-right: 100px;
+    color: white; 
 }
 
-.bi.bi-file-text 
+.bi.bi-file-text-fill 
 {
     font-size: 2em;
     color: white;
-    padding-right: 100px;
 }
 
 .bi.bi-map
 {
     font-size: 2em;
     color: white;
-    padding-right: 100px;
 }
+
+.bi.bi-info-circle{
+    font-size: 2em;
+    color: white;
+}
+
+@media only screen and (min-width: 600px) {
+    .titulo_form {
+      padding-top: 65px;
+      padding-right: 620px;
+    }
+    .formulario {
+        padding-top: 0px;
+        margin: auto;
+        padding-left: 580px;
+    }
+    #btn_enviar_ativ{
+        margin-left: 270px;
+        width: 10%;
+    }
+    .form-control-pais{
+        width: 49%;
+    }
+    .form-control{
+        padding: 7px;
+        width: 50%;
+        margin: 7px;
+    }
+  }
 
