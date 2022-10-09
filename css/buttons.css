@@ -112,6 +112,11 @@ ul li a:active {
     color: white;
 }
 
+.bi-arrow-left-circle{
+    font-size: 1em;
+    color: #0B63CE;
+}
+
 @media only screen and (min-width: 600px) {
     .titulo_form {
       padding-top: 65px;
