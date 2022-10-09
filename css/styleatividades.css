@@ -29,12 +29,8 @@ body {
     left: 90%;
     position: absolute;
 }
-.formulario {
-    margin-top: 10%;
-    margin-left: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
+#formulario {
+    margin: 20px;
 }
 
 .form-label-password{
@@ -43,6 +39,7 @@ body {
 }
 
 .sub-titulo-chk{
+    margin-top: 20px;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 15px;
     color: #0B63CE;
@@ -59,10 +56,11 @@ body {
 }
 
 .titulo_form {
-    padding-top: 25px;
+    padding-top: 25px !important;
     padding-right: 35px;
     padding-bottom: 13px;
     margin: auto;
+    font-weight: 700 !important;
     font-size: 19px;
     font-family:Arial, Helvetica, sans-serif;
     text-align: center;
@@ -71,10 +69,8 @@ body {
 }
 
 #btn_enviar_ativ{
-    margin-left: 80px;
-    margin-top: 20px;
-    padding: 15px;
-    width: 40%;
+    margin-top: 40px;
+    margin-bottom: 120px;
     background-color: #0B63CE;
     border:0px;
     color: white;
@@ -84,15 +80,15 @@ body {
 .form-control{
     display: flex;
     justify-content: center;
-    padding: 7px;
-    width: 80%;
-    margin: 7px;
+    padding: 7px !important;
+    width: 100% !important;
+    margin: auto !important;
 }
 
-.form-control-pais{
+#form-control-pais{
     padding: 7px;
-    width: 76%;
-    margin: 7px;   
+    width: 100% !important;
+    margin-top: 28px !important;  
 }
 
 .container-pais{
@@ -103,64 +99,27 @@ body {
     margin-left: 10px;
 }
 
-
-.bottom_menu
-{
-    background-color: #0B63CE;
-    bottom: 0;
-    display: flex;
-    width: 100%;
-    position: fixed;
-    justify-content: center;
-}
-
-.nav_list 
-{
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-}
-
-.bi.bi-house-door 
-{
-    font-size: 2em;
-    color: white;      
-}
-
-.bi.bi-file-text 
-{
-    font-size: 2em;
-    color: white;
-}
-
-.bi.bi-map
-{
-    font-size: 2em;
-    color: white;
-}
-
-@media only screen and (min-width: 600px) {
-    .titulo_form {
-      padding-top: 65px;
-      padding-right: 620px;
-    }
-    .formulario {
+@media only screen and (min-width: 820px) {
+    #formulario {
         padding-top: 0px;
-        margin: auto;
-        padding-left: 580px;
+        margin-left: 450px;
+        margin-right: 450px;
     }
-    #btn_enviar_ativ{
-        margin-left: 270px;
-        width: 10%;
-    }
-    .form-control-pais{
-        width: 49%;
-    }
+    
+  }
+ 
+  @media only screen and (device-width: 820px) {
     .form-control{
-        padding: 7px;
-        width: 50%;
-        margin: 7px;
+        display: flex;
+        justify-content: center;
+        padding: 7px !important;
+        width: 100% !important;
+        margin: auto !important;
+    }
+
+    #formulario {
+        padding-top: 0px;
+        margin-left: 70px;
+        margin-right: 70px;
     }
   }
-

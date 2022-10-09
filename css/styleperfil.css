@@ -21,6 +21,7 @@
 
 .pagina_perfil{
     color:#0B63CE;
+    background:white;
 }
 
 .nome_pagina_perfil{
@@ -118,26 +119,4 @@ ul li a:active {
     color: white;
 }
 
-@media only screen and (min-width: 600px) {
-    .titulo_form {
-      padding-top: 65px;
-      padding-right: 620px;
-    }
-    .formulario {
-        padding-top: 0px;
-        margin: auto;
-        padding-left: 580px;
-    }
-    #btn_enviar_ativ{
-        margin-left: 270px;
-        width: 10%;
-    }
-    .form-control-pais{
-        width: 49%;
-    }
-    .form-control{
-        padding: 7px;
-        width: 50%;
-        margin: 7px;
-    }
-  }
+

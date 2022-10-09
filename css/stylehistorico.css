@@ -5,7 +5,9 @@
 body{
     background-color:white !important;
 }
+
 .acordeon_principal{
+    padding: 0;
     margin: 20px;
 }
 
@@ -16,21 +18,38 @@ body{
 }
 
 .meses{
-    padding: 20px;
+    padding-left:20px;
+    padding-right:20px;
     border-radius: 0px;
     margin: 20px;
-    /* background-color: #B6D0F0;
-    border: 1px black solid;  */
+    /* background-color: #B6D0F0; */
+    /* border: 1px black dashed;
+    border-radius: 25px; */
 }
 
 .titulo_form {
     margin: auto;
     font-size: 19px;
-    padding-left: 20px;
+    padding-left: 45px;
     font-family:Arial, Helvetica, sans-serif;
     text-align: left;
     color: #0B63CE;
     text-decoration: solid;
-    font-weight: 700;
+    font-weight: bolder !important;
 }
 
+@media only screen and (min-width: 600px) {
+    .acordeon_principal{
+        padding: 12px;
+        margin-top: 40px;
+        margin-left: 350px;
+        margin-right: 350px;
+    }
+}
+
+@media only screen and (min-width: 820px) {
+    .acordeon_principal{
+        padding: 0;
+        margin: 20px;
+    }
+  }
