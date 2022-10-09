@@ -41,7 +41,17 @@
     font-weight: medium;
 }
 
+.bi.bi-clock-history{
+    font-size: 1em;
+    color: #0B63CE;
+    float: right;
+}
+
 #caixa_grafico_atividade{
+    padding: 10px 15px 0px;
+}
+
+#caixa_grafico_doacao{
     padding: 10px 15px 0px;
 }
 
@@ -49,8 +59,6 @@
     max-width: 650px;
     margin: 35px auto;
 }
-
-
 
 #grafico_doacoes {
     height: 30px;
