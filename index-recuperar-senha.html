@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="tela de recuperação de senha">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+
+    <link rel="stylesheet" href="/css/stylesenha.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    
+    <title>Liferay Doações</title>
+
+</head>
+<body class = "pagina_recuperar_senha" style="background-color:#0B63CE">
+        <div class="container">
+            <div class="row">
+                <div class="col img-fluid mx-auto" id="logo_login_coluna">
+                    <img class="logo_login" src="/img/liferay-logo.png">
+                    <div class="return">
+                        <h2 class="senha"><a class= "return-icon" href="index-senha.html"><i class="bi bi-arrow-left-circle"></i></a>
+                        Recuperar senha</h2>
+                    </div>
+                </div>
+            </div>
+            <div class ="row">
+                <div class="col-8  offset-2 col-sm-8  offset-sm-2 col-md-6  offset-md-3 col-lg-4  offset-lg-4 col-xl-4  offset-xl-4">
+                    <br><p id="rec_compsenha">Digite o código de verificação:
+                        <label for="Email" class="form-label-email"></label>
+                    <input type="email" class="form-control" placeholder="Código de verificação" id="Password">
+                </div>
+                <form class="form_login">
+                    <div class="col-8  offset-2 col-sm-8  offset-sm-2 col-md-6  offset-md-3 col-lg-4  offset-lg-4 col-xl-4  offset-xl-4">
+                        <p id="rec_recupsenha">A senha deve ser composta por:</p>
+                        <p id="rec_compsenha">&bull; No mínimo 8 caracteres;<br>
+                        &bull; Conter letras e números;<br>
+                        &bull; Conter uma letra maiúscula;<br>
+                        &bull; Conter um caracter especial.<br>
+                        <label for="Password" class="form-label-password"></label>
+                        <input type="password" class="form-control" placeholder="Nova senha" id="Password">
+                    </div>
+                    <div class="col-8  offset-2 col-sm-8  offset-sm-2 col-md-6  offset-md-3 col-lg-4  offset-lg-4 col-xl-4  offset-xl-4">
+                        <label for="Password" class="form-label-password"></label>
+                        <input type="password" class="form-control" placeholder="Confirme a nova senha" id="New Password">
+                    </div>
+                    <br>
+                    <div>
+                        <a href="/index.html" style="text-decoration:none ;">
+                            <button id= "altsenha" type="button" class="btn btn-light col-md-3 offset-md-6 "><strong>Alterar senha</strong></button>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+</body>
+    
+</html>
